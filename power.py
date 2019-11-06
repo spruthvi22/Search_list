@@ -4,7 +4,9 @@ Email:  pruthvi.suryadevara@tifr.res.in
 Simple code to search list for 2**5
 
 """
-L=[1,2,4,8,16,32,64]
+L=[]
+for i in range(7):
+    L.append(2**i)
 X=5
 
 if 2**X in L:
